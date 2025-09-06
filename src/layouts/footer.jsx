@@ -15,7 +15,7 @@ function Footer() {
     <footer>
       <div className="footer">
         <Container fluid>
-          <Row className="p-4">
+          <Row className="p-4 ">
             <Col lg={5} md={12} className="mb-4">
               <Stack>
                 <div className="p-2 ">
