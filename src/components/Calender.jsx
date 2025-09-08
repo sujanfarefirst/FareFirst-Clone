@@ -6,6 +6,7 @@ import "./component.css";
 import { format } from "date-fns";
 
 function CalendarInput({ onChange, selected }) {
+  
   const handleChange = (date) => {
     const formattedDate = format(date, "yyyy-MM-dd");
     onChange(formattedDate);
@@ -22,6 +23,7 @@ function CalendarInput({ onChange, selected }) {
           onChange={handleChange}
           placeholderText="Select Date"
           required
+          dateFormat="MMMM d, yyyy"
         />
       </div>
     </div>

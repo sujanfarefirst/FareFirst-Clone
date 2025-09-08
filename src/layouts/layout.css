@@ -63,6 +63,10 @@ footer .nav-link {
   color: #555 !important;
   opacity: 0.7;
   padding: 2px 16px;
+  font-size: 13px;
+}
+.footer-text {
+  font-size: 13px !important;
 }
 
 footer .nav-link:hover {
@@ -77,7 +81,7 @@ footer .nav-link:hover {
 
 h5{
   padding: 0px 18px;
-  margin-bottom:0;
+  margin-bottom:13px;
 }
 .copyright {
   background-color: #333;
@@ -101,4 +105,8 @@ footer .container-fluid .p-4{
 }
 footer .container-fluid{
   max-width: 1200px;
+}
+
+h2{
+  font-size: 40px;
 }

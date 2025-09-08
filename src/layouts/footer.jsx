@@ -18,7 +18,7 @@ function Footer() {
           <Row className="p-4 ">
             <Col lg={5} md={12} className="mb-4">
               <Stack>
-                <div className="p-2 ">
+                <div className="p-2 " style={{filter:"brightness(0.4)"}} >
                   <a href="/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -35,12 +35,12 @@ function Footer() {
                     </svg>
                   </a>
                 </div>
-                <div>
-                  <p className="p-1 fs-6">
+                <div className="footer-text">
+                  <p className="p-1 ">
                     Helps you find the cheapest flight deals to any destination
                     with ease.
                   </p>
-                  <p className="p-1 fs-6">
+                  <p className="p-1 ">
                     Browse through the best hotels and find exclusive deals.
                   </p>
                 </div>
