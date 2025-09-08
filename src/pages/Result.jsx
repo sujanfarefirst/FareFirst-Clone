@@ -45,11 +45,10 @@ function Results() {
   return (
     <div>
       <div className="header">
-        <NavigationBar/>
+        <NavigationBar />
         <div className="result-search-container ">
-          <SearchBar/>
+          <SearchBar />
         </div>
-      
       </div>
 
       <FlightResult results={results} loading={loading} date={date} />

@@ -18,7 +18,7 @@ function Footer() {
           <Row className="p-4 ">
             <Col lg={5} md={12} className="mb-4">
               <Stack>
-                <div className="p-2 " style={{filter:"brightness(0.4)"}} >
+                <div className="p-2 " style={{ filter: "brightness(0.4)" }}>
                   <a href="/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -53,11 +53,36 @@ function Footer() {
                   <Col md={4} sm={4} xs={4} className="mb-3">
                     <h5>About</h5>
                     <Nav className="flex-column fs-6">
-                      <NavLink href="https://www.farefirst.com/about" target="_blank">About Us</NavLink>
-                      <NavLink href="https://play.google.com/store/apps/details?id=com.cheapflightsapp.flightbooking" target="_blank">Android App</NavLink>
-                      <NavLink href="https://itunes.apple.com/in/app/farefirst-flights-hotels/id1435065486?mt=8" target="_blank">iOS App</NavLink>
-                      <NavLink href="https://www.farefirst.com/nomad-multi-destination-trip-planner" target="_blank">About Nomad</NavLink>
-                      <NavLink href="https://www.farefirst.com/blog/index.html" target="_blank">Blog</NavLink>
+                      <NavLink
+                        href="https://www.farefirst.com/about"
+                        target="_blank"
+                      >
+                        About Us
+                      </NavLink>
+                      <NavLink
+                        href="https://play.google.com/store/apps/details?id=com.cheapflightsapp.flightbooking"
+                        target="_blank"
+                      >
+                        Android App
+                      </NavLink>
+                      <NavLink
+                        href="https://itunes.apple.com/in/app/farefirst-flights-hotels/id1435065486?mt=8"
+                        target="_blank"
+                      >
+                        iOS App
+                      </NavLink>
+                      <NavLink
+                        href="https://www.farefirst.com/nomad-multi-destination-trip-planner"
+                        target="_blank"
+                      >
+                        About Nomad
+                      </NavLink>
+                      <NavLink
+                        href="https://www.farefirst.com/blog/index.html"
+                        target="_blank"
+                      >
+                        Blog
+                      </NavLink>
                     </Nav>
                   </Col>
 
@@ -65,29 +90,92 @@ function Footer() {
                     <h5>Explore</h5>
                     <Nav className="flex-column fs-6">
                       <NavLink href="/">Flights</NavLink>
-                      <NavLink href="https://www.farefirst.com/hotels" target="_blank">Hotels</NavLink>
-                      <NavLink href="https://www.farefirst.com/cars" target="_blank">Cars</NavLink>
-                      <NavLink href="https://www.farefirst.com/nomad" target="_blank">Nomad</NavLink>
-                      <NavLink href="https://www.farefirst.com/visa" target="_blank">Visa</NavLink>
+                      <NavLink
+                        href="https://www.farefirst.com/hotels"
+                        target="_blank"
+                      >
+                        Hotels
+                      </NavLink>
+                      <NavLink
+                        href="https://www.farefirst.com/cars"
+                        target="_blank"
+                      >
+                        Cars
+                      </NavLink>
+                      <NavLink
+                        href="https://www.farefirst.com/nomad"
+                        target="_blank"
+                      >
+                        Nomad
+                      </NavLink>
+                      <NavLink
+                        href="https://www.farefirst.com/visa"
+                        target="_blank"
+                      >
+                        Visa
+                      </NavLink>
                       <div className="button-wrapper">
-                        <NavLink href="https://www.farefirst.com/esim" target="_blank">
+                        <NavLink
+                          href="https://www.farefirst.com/esim"
+                          target="_blank"
+                        >
                           eSim <span className="badge-footer ">New</span>
                         </NavLink>
                       </div>
-                      <NavLink href="https://www.farefirst.com/experience" target="_blank">Experience</NavLink>
-                      <NavLink href="https://www.farefirst.com/in/offers" target="_blank">Offers</NavLink>
-                      <NavLink href="https://www.farefirst.com/cheap-flights-app" target="_blank">Mobile App</NavLink>
+                      <NavLink
+                        href="https://www.farefirst.com/experience"
+                        target="_blank"
+                      >
+                        Experience
+                      </NavLink>
+                      <NavLink
+                        href="https://www.farefirst.com/in/offers"
+                        target="_blank"
+                      >
+                        Offers
+                      </NavLink>
+                      <NavLink
+                        href="https://www.farefirst.com/cheap-flights-app"
+                        target="_blank"
+                      >
+                        Mobile App
+                      </NavLink>
                     </Nav>
                   </Col>
 
                   <Col md={4} sm={4} xs={4} className="mb-3">
                     <h5>More</h5>
                     <Nav className="flex-column fs-6">
-                      <NavLink href="https://www.farefirst.com/contact-us" target="_blank">Customer Support</NavLink>
-                      <NavLink href="https://www.farefirst.com/terms-of-use" target="_blank">Terms of Use</NavLink>
-                      <NavLink href="https://www.farefirst.com/privacy-policy" target="_blank">Privacy Policy</NavLink>
-                      <NavLink href="https://www.farefirst.com/cancel-refund" target="_blank">Refund Policy</NavLink>
-                      <NavLink href="https://www.farefirst.com/shipping-delivery" target="_blank">Shipping & Delivery Policy</NavLink>
+                      <NavLink
+                        href="https://www.farefirst.com/contact-us"
+                        target="_blank"
+                      >
+                        Customer Support
+                      </NavLink>
+                      <NavLink
+                        href="https://www.farefirst.com/terms-of-use"
+                        target="_blank"
+                      >
+                        Terms of Use
+                      </NavLink>
+                      <NavLink
+                        href="https://www.farefirst.com/privacy-policy"
+                        target="_blank"
+                      >
+                        Privacy Policy
+                      </NavLink>
+                      <NavLink
+                        href="https://www.farefirst.com/cancel-refund"
+                        target="_blank"
+                      >
+                        Refund Policy
+                      </NavLink>
+                      <NavLink
+                        href="https://www.farefirst.com/shipping-delivery"
+                        target="_blank"
+                      >
+                        Shipping & Delivery Policy
+                      </NavLink>
                     </Nav>
                   </Col>
                 </Row>
@@ -97,9 +185,7 @@ function Footer() {
         </Container>
       </div>
       <div className="copyright">
-        <p>
-          © 2018-2025 Amahop Technologies Pvt. Ltd. All rights reserved.
-        </p>
+        <p>© 2018-2025 Amahop Technologies Pvt. Ltd. All rights reserved.</p>
       </div>
     </footer>
   );

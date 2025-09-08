@@ -30,28 +30,26 @@ export const Dropdown = ({ flight, date }) => {
               <img src={flight.from.airlineLogoUrl} alt="Airline Logo" />
             </div>
             <div className="flight-complete-info">
-              <div className="time-info-eco"><p className="time">
+              <div className="time-info-eco">
+                <p className="time">
                   {flight.from.time} - {flight.to.time}
                 </p>
                 <div className="flight-info">
-              <p>Economy</p>
-              <p className="duration">
-                {flight.total_duration.h}h {flight.total_duration.m}m
-              </p>
+                  <p>Economy</p>
+                  <p className="duration">
+                    {flight.total_duration.h}h {flight.total_duration.m}m
+                  </p>
+                </div>
+              </div>
+
+              <div className="city">
+                {flight.from.info.city} - {flight.to.info.city}
+              </div>
+              <div className="airport">
+                {flight.from.info.name} - {flight.to.info.name}
+              </div>
+              <div className="airline">{flight.gate.name}</div>
             </div>
-                
-                </div>
-                
-                <div className="city">
-                  {flight.from.info.city} - {flight.to.info.city}
-                </div>
-                <div className="airport">
-                  {flight.from.info.name} - {flight.to.info.name}
-                </div>
-                <div className="airline">{flight.gate.name}</div>
-              
-            </div>
-            
           </div>
         </div>
       )}

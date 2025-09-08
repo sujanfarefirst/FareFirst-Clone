@@ -6,7 +6,7 @@ export const Card = ({ flight }) => {
 console.log(flight);
 
 function IndianCurrency(amount) {
-  console.log(amount);
+ 
   
   amount = new Intl.NumberFormat('en-IN',{
     style: 'currency',
@@ -14,7 +14,7 @@ function IndianCurrency(amount) {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2
   }).format(amount);
-  console.log(amount);
+
   
   return amount;
   

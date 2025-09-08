@@ -22,17 +22,14 @@ function InputBar({
           value={value}
           onChange={(e) => onChange(e.target.value)}
           type="search"
-          onFocus={onFocus}  
+          onFocus={onFocus}
           required
-          
         />
         {showSuggestions && result.length > 0 && (
           <SearchResult result={result} onSelect={handleSelect} />
         )}
       </div>
     </div>
-      
-  
   );
 }
 

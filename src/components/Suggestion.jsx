@@ -7,7 +7,11 @@ export const SearchResult = ({ result, onSelect }) => {
   return (
     <div className="suggestions-list">
       {result.map((item, id) => (
-        <div key={id} className="suggestion-item" onClick={() => onSelect(item)}>
+        <div
+          key={id}
+          className="suggestion-item"
+          onClick={() => onSelect(item)}
+        >
           <div className="code">{item.code}</div>
           <div>{item.name},</div>
           <div>{item.main_airport_name}</div>

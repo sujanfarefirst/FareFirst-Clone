@@ -1,23 +1,20 @@
 .custom-navbar {
-  background-color:#0C1A7A ;
+  background-color: #0c1a7a;
   background-size: cover;
   background-position: center;
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-
 }
-
 
 .navbar .nav-link {
   font-size: 17px;
   position: relative;
-  bottom: -10px;;
+  bottom: -10px;
   color: rgb(161, 161, 161) !important;
   padding: 8px 12px;
   transition: all 0.3s ease;
 }
 
-
-.navbar-brand img{
+.navbar-brand img {
   height: 20px;
   vertical-align: bottom;
 }
@@ -26,8 +23,6 @@
   border-bottom: 2px solid white !important;
   color: white !important;
 }
-
- 
 
 .right-nav {
   margin-left: auto;
@@ -50,7 +45,7 @@
   border-radius: 10px;
   font-size: 0.4em;
 }
-.badge:hover{
+.badge:hover {
   transform: scale(1.2);
 }
 
@@ -76,12 +71,12 @@ footer .nav-link:hover {
 }
 .footer {
   max-width: 80vw;
-  margin:  0 auto;
+  margin: 0 auto;
 }
 
-h5{
+h5 {
   padding: 0px 18px;
-  margin-bottom:13px;
+  margin-bottom: 13px;
 }
 .copyright {
   background-color: #333;
@@ -100,13 +95,13 @@ h5{
   font-size: 0.5em;
   margin-left: 0;
 }
-footer .container-fluid .p-4{
-  padding: 10px 0!important;
+footer .container-fluid .p-4 {
+  padding: 10px 0 !important;
 }
-footer .container-fluid{
+footer .container-fluid {
   max-width: 1200px;
 }
 
-h2{
+h2 {
   font-size: 40px;
 }
