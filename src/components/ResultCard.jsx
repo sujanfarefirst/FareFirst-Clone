@@ -3,24 +3,16 @@ import { Dropdown } from "./ResultDropdown";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 export const Card = ({ flight }) => {
-console.log(flight);
+  function IndianCurrency(amount) {
+    amount = new Intl.NumberFormat("en-IN", {
+      style: "currency",
+      currency: "INR",
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2,
+    }).format(amount);
 
-function IndianCurrency(amount) {
- 
-  
-  amount = new Intl.NumberFormat('en-IN',{
-    style: 'currency',
-    currency: 'INR',
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2
-  }).format(amount);
-
-  
-  return amount;
-  
-} 
-
-
+    return amount;
+  }
 
   return (
     <div className="result-card">
@@ -47,9 +39,7 @@ function IndianCurrency(amount) {
       <div className="flight-type">Direct</div>
 
       <div className="price-book">
-        <p className="price">
-          {IndianCurrency(flight.price.amount)}
-        </p>
+        <p className="price">{IndianCurrency(flight.price.amount)}</p>
         <a
           href={flight.gate.redirectUrl}
           target="_blank"
@@ -58,7 +48,6 @@ function IndianCurrency(amount) {
           <button className="book-btn">BOOK NOW</button>
         </a>
       </div>
-      
     </div>
   );
 };
