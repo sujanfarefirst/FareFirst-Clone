@@ -578,6 +578,9 @@ input:focus {
 .duration {
   font-weight: 700;
 }
+.dropdown-content-header .duration{
+  margin-bottom: 0;
+}
 @media (max-width: 600px) {
   .time-info-eco {
     flex-direction: column;

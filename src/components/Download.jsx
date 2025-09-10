@@ -40,7 +40,7 @@ export const Download = () => {
       </div>
       <div className="download-image">
         <a href="/">
-          <img src={phone} alt="" />
+          <img src={phone} alt="Ad" />
         </a>
       </div>
     </div>
