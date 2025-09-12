@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./component.css";
 
 import { SearchResult } from "./Suggestion";

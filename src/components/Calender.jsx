@@ -1,4 +1,3 @@
-import React from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { FaRegCalendarAlt } from "react-icons/fa";
@@ -6,7 +5,6 @@ import "./component.css";
 import { format } from "date-fns";
 
 function CalendarInput({ onChange, selected }) {
-  
   const handleChange = (date) => {
     const formattedDate = format(date, "yyyy-MM-dd");
     onChange(formattedDate);

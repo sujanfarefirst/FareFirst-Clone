@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaChevronDown, FaPlaneDeparture, FaChevronUp } from "react-icons/fa";
 import { format } from "date-fns";
 

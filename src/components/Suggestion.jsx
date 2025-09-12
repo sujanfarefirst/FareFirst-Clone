@@ -1,4 +1,3 @@
-import React from "react";
 import "./component.css";
 
 export const SearchResult = ({ result, onSelect }) => {

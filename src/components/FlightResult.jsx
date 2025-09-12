@@ -4,7 +4,7 @@ import { Card } from "./ResultCard";
 import { Dropdown } from "./ResultDropdown";
 
 export const FlightResult = ({ results, loading, date }) => {
-   const [visibleCount, setVisibleCount] = useState(5);
+  const [visibleCount, setVisibleCount] = useState(5);
   const validResults = results.filter(
     (flight) =>
       flight?.from &&
@@ -26,10 +26,10 @@ export const FlightResult = ({ results, loading, date }) => {
     return <p>No flights found.</p>;
   }
 
-  const handleMore = ()=>{
+  const handleMore = () => {
     const remResult = validResults.length - 5;
-    setVisibleCount((prev)=> prev + remResult);
-  }
+    setVisibleCount((prev) => prev + remResult);
+  };
 
   return (
     <div className="result-container">
@@ -41,21 +41,20 @@ export const FlightResult = ({ results, loading, date }) => {
       </div>
 
       <div className="flight-search-result">
-        {validResults.slice(0,visibleCount).map((flight, index) => (
+        {validResults.slice(0, visibleCount).map((flight, index) => (
           <div key={index} className="card-container">
             <Card flight={flight}></Card>
             <div className="dropdown-container">
               <Dropdown flight={flight} date={date} />
             </div>
-           
           </div>
         ))}
-
-
       </div>
-       {visibleCount < validResults.length && (
-              <button onClick={handleMore} className="load-more-btn">Load more</button>
-            )}
+      {visibleCount < validResults.length && (
+        <button onClick={handleMore} className="load-more-btn">
+          Load more
+        </button>
+      )}
     </div>
   );
 };

@@ -1,5 +1,3 @@
-import React from "react";
-
 export const DestinationCard = ({ title, subtitle, image }) => (
   <div
     className="image-container"

@@ -67,7 +67,7 @@ function SearchBar() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    navigate("/results", { state: { queryFrom, queryTo, date }});
+    navigate("/results", { state: { queryFrom, queryTo, date } });
   };
 
   return (

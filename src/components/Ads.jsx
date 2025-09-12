@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Ads = () => {
   return (
     <div className="flight-search-ad">

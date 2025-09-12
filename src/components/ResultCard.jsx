@@ -1,7 +1,3 @@
-import { React, useState } from "react";
-import { Dropdown } from "./ResultDropdown";
-import { FaChevronDown, FaChevronUp } from "react-icons/fa";
-
 export const Card = ({ flight }) => {
   function IndianCurrency(amount) {
     amount = new Intl.NumberFormat("en-IN", {

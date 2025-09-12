@@ -5,8 +5,6 @@ import { FlightResult } from "../components/FlightResult";
 import NavigationBar from "../layouts/Navigation";
 import SearchBar from "../components/SearchBar";
 import Footer from "../layouts/footer";
-import { Header } from "../components/Header";
-import { FlightSearch } from "../components/FlightSearch";
 
 function Results() {
   const location = useLocation();

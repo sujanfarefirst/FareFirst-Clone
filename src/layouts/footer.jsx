@@ -3,10 +3,8 @@ import {
   Row,
   Col,
   Stack,
-  Image,
   Nav,
   NavLink,
-  Badge,
 } from "react-bootstrap";
 import "./layout.css";
 
