@@ -239,7 +239,7 @@ input:focus {
 }
 
 .grid-container img {
-  height: 45px;
+  height: 40px;
   width: auto;
   object-fit: contain;
 }
@@ -572,7 +572,7 @@ input:focus {
 
 .flight-complete-info {
   width: 60%;
-  min-width: 300px;
+  min-width: 250px;
 }
 
 .duration {
