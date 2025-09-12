@@ -7,8 +7,8 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 function SearchBar() {
-  const [from, setFrom] = useState("Manglore (IXE)");
-  const [to, setTo] = useState("Bengaluru (BLR)");
+  const [from, setFrom] = useState("");
+  const [to, setTo] = useState("");
   const [date, setDate] = useState(null);
   const [result, setResult] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
